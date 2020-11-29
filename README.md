@@ -14,3 +14,13 @@ run demoPS.m to reproduce the results on the Concrete-CS dataset of Fig.5 in the
 run demoGD.m to reproduce the results on the Concrete-CS dataset of Fig.6 in the paper.
 
 run demoInit.m to reproduce the results on the Concrete-CS dataset of Fig.7 in the paper.
+
+## Citation
+```
+@article{shi2020,
+  title={FCM-RDpA: TSK Fuzzy Regression Model Construction Using Fuzzy c-Means Clustering, Regularization, DropRule, and Powerball AdaBelief},
+  author={Zhenhua Shi, Dongrui Wu, Chenfeng Guo, Changming Zhao, Yuqi Cui, and Fei-Yue Wang},
+  journal={IEEE Trans on Fuzzy Systems},
+  year={2020}
+}
+```
