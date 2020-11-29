@@ -1,7 +1,7 @@
 # FCM-RDpA
 source code for FCM-RDpA paper
 
-FCM-RDpA enhances the MBGD-RDA in three aspects for TSK fuzzy regression model construction.
+FCM-RDpA enhances the MBGD-RDA in the following three aspects for TSK fuzzy regression model construction.
 
 <div align=center><img src="https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/Fig1.jpg"/></div>
 
