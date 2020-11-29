@@ -5,7 +5,7 @@ Z. Shi, D. Wu, C. Guo, C. Zhao, Y. Cui and F.-Y. Wang, "FCM-RDpA: TSK Fuzzy Regr
 
 This paper proposes FCM-RDpA that enhances the MBGD-RDA in three aspects for TSK fuzzy regression model construction.
 
-<div align=center><img src="https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/Fig1.jpg">
+<div align=center><img src="https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/Fig1.jpg"/>
 
 run demoAA.m to reproduce the results on the Concrete-CS dataset of Fig.3/4/8 in the paper.
 
