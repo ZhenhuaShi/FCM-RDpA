@@ -17,7 +17,7 @@ run [demoInit.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoInit.m) to
 ```
 @Article{Shi2020,
   author  = {Zhenhua Shi and Dongrui Wu and Chenfeng Guo and Changming Zhao and Yuqi Cui and Fei-Yue Wang},
-  journal = {IEEE Trans on Fuzzy Systems},
+  journal = {IEEE Trans. on Fuzzy Systems},
   title   = {{FCM-RDpA}: {TSK} Fuzzy Regression Model Construction Using Fuzzy $c$-Means Clustering, Regularization, {D}rop{R}ule, and {P}owerball {A}da{B}elief},
   year    = {2020},
   note    = {submitted},
