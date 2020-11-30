@@ -9,9 +9,9 @@ run [demoAA.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoAA.m) to rep
 
 run [demoPS.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoPS.m) to reproduce the results on the Concrete-CS dataset of Fig.5 in the paper.
 
-run [demoGD.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoGD.m) to reproduce the results on the Concrete-CS dataset of Fig.6 in the paper.
+run [demoInit.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoInit.m) to reproduce the results on the Concrete-CS dataset of Fig.6 in the paper.
 
-run [demoInit.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoInit.m) to reproduce the results on the Concrete-CS dataset of Fig.7 in the paper.
+run [demoGD.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoGD.m) to reproduce the results on the Concrete-CS dataset of Fig.7 in the paper.
 
 ## Citation
 ```
