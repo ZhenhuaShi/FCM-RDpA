@@ -1,7 +1,7 @@
 # FCM-RDpA
 source code for FCM-RDpA paper
 
-FCM-RDpA (Fuzzy C-Means Clustering, Regularization, DropRule, and Powerball AdaBelief; [blog](http://blog.sciencenet.cn/home.php?mod=space&uid=3418535&do=blog&id=1260629)) enhances the MBGD-RDA (mini-batch gradient descent with regularization, DropRule, and AdaBound; [paper](https://ieeexplore.ieee.org/document/8930057)|[code](https://github.com/drwuHUST/MBGD_RDA)|[blog](http://blog.sciencenet.cn/blog-3418535-1214113.html)) in the following three aspects for TSK fuzzy regression model construction.
+FCM-RDpA (Fuzzy C-Means Clustering, Regularization, DropRule, and Powerball AdaBelief; [blog](http://blog.sciencenet.cn/blog-3418535-1260629.html)) enhances the MBGD-RDA (mini-batch gradient descent with regularization, DropRule, and AdaBound; [paper](https://ieeexplore.ieee.org/document/8930057)|[code](https://github.com/drwuHUST/MBGD_RDA)|[blog](http://blog.sciencenet.cn/blog-3418535-1214113.html)) in the following three aspects for TSK fuzzy regression model construction.
 
 <div align=center><img src="https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/Fig1.jpg"/></div>
 
