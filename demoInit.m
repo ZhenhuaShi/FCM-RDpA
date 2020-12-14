@@ -106,7 +106,7 @@ parfor r=1:nRepeats
             times{r}(s,id)=toc;
             
             
-            %% kmeans
+            %% k-Means
             tic
             kW3=zeros(nRules,M+1); % Rule consequents
             [ids,kC3] = kmeans(XTrain,nRules,'replicate',3);
@@ -138,7 +138,7 @@ parfor r=1:nRepeats
             times{r}(s,id)=toc;
             
             
-            %% Same init
+            %% Fuzzy C-Means (FCM)
             tic
             W3=zeros(nRules,M+1); % Rule consequents
             % FCM initialization
@@ -150,7 +150,7 @@ parfor r=1:nRepeats
             end
             Sigma3(Sigma3==0)=mean(Sigma3(:));
             t3=toc;
-            %% RDpA-iA
+            %% FCM-RDpA
             tic;
             id=id+1;
             InitTimes{r}(s,id)=t3;
