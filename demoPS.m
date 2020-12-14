@@ -67,9 +67,8 @@ parfor r=1:nRepeats
         RMSEtest{r}(s,id,:) = sqrt(mean((yTest-[ones(length(yTest),1) XTest]*b).^2));
         
         for nRules=nRs0
-            %% Same init
-            W0=zeros(nRules,M+1); % Rule consequents
-            % FCM initialization
+            %% Fuzzy C-Means (FCM)
+            W0=zeros(nRules,M+1); % Rule consequents            
             [C0,U] = FuzzyCMeans(XTrain,nRules,[2 100 0.001 0]);
             Sigma0=C0;
             for ir=1:nRules
@@ -77,7 +76,7 @@ parfor r=1:nRepeats
                 W0(ir,1)=U(ir,:)*yTrain/sum(U(ir,:));
             end
             Sigma0(Sigma0==0)=mean(Sigma0(:));
-            %% RDpbA2(s)-alpha
+            %% FCM_RDpA-alpha
             for P=P0
                 for alpha=alphas
                     for gammaP=gammaP0
@@ -96,7 +95,7 @@ parfor r=1:nRepeats
                 end
             end
             
-            %% RDpbA2(s)-P
+            %% FCM_RDpA-P
             for P=Ps
                 for alpha=alpha0
                     for gammaP=gammaP0
@@ -115,7 +114,7 @@ parfor r=1:nRepeats
                 end
             end
             
-            %% RDpbA2(s)-gamma
+            %% FCM_RDpA-gamma
             for P=P0
                 for alpha=alpha0
                     for gammaP=gammaPs
