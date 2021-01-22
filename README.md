@@ -15,11 +15,11 @@ run [demoGD.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoGD.m) to rep
 
 ## Citation
 ```
-@Article{Shi2020,
+@Article{Shi2021,
   author  = {Zhenhua Shi and Dongrui Wu and Chenfeng Guo and Changming Zhao and Yuqi Cui and Fei-Yue Wang},
   journal = {Information Sciences},
   title   = {{FCM-RDpA}: {TSK} Fuzzy Regression Model Construction Using Fuzzy C-Means Clustering, Regularization, {D}rop{R}ule, and {P}owerball {A}da{B}elief},
-  year    = {2020},
+  year    = {2021},
   note    = {submitted},
 }
 @Article{Wu2020,
