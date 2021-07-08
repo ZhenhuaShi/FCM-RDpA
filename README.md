@@ -1,7 +1,7 @@
 # FCM-RDpA
-source code for [FCM-RDpA paper](https://arxiv.org/abs/2012.00060)
+source code for FCM-RDpA ([paper](https://authors.elsevier.com/c/1dHuD4ZQE4EJG)|[arxiv](https://arxiv.org/abs/2012.00060)|[code](https://github.com/ZhenhuaShi/FCM-RDpA)|[blog](http://blog.sciencenet.cn/blog-3418535-1260629.html))
 
-FCM-RDpA (Fuzzy C-Means Clustering, Regularization, DropRule, and Powerball AdaBelief; [paper](https://arxiv.org/abs/2012.00060)|[code](https://github.com/ZhenhuaShi/FCM-RDpA)|[blog](http://blog.sciencenet.cn/blog-3418535-1260629.html)) enhances the MBGD-RDA (Mini-Batch Gradient Descent with Regularization, DropRule, and AdaBound; [paper](https://ieeexplore.ieee.org/document/8930057)|[code](https://github.com/drwuHUST/MBGD_RDA)|[blog](http://blog.sciencenet.cn/blog-3418535-1214113.html)) in the following three aspects for TSK fuzzy regression model construction.
+FCM-RDpA (Fuzzy C-Means Clustering, Regularization, DropRule, and Powerball AdaBelief) enhances the MBGD-RDA (Mini-Batch Gradient Descent with Regularization, DropRule, and AdaBound; [paper](https://ieeexplore.ieee.org/document/8930057)|[code](https://github.com/drwuHUST/MBGD_RDA)|[blog](http://blog.sciencenet.cn/blog-3418535-1214113.html)) in the following three aspects for TSK fuzzy regression model construction.
 
 <div align=center><img src="https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/Fig1.JPG"/></div>
 
@@ -20,7 +20,8 @@ run [demoGD.m](https://github.com/ZhenhuaShi/FCM-RDpA/blob/main/demoGD.m) to rep
   journal = {Information Sciences},
   title   = {{FCM-RDpA}: {TSK} Fuzzy Regression Model Construction Using Fuzzy C-Means Clustering, Regularization, {D}rop{R}ule, and {P}owerball {A}da{B}elief},
   year    = {2021},
-  note    = {in press},
+  pages   = {490-504},
+  volume  = {574},
 }
 @Article{Wu2020,
   author  = {Dongrui Wu and Ye Yuan and Jian Huang and Yihua Tan},
